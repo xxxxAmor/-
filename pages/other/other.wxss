@@ -1,1 +1,8 @@
 /* pages/other/other.wxss */
+.pic{
+  width: 100%;
+  background: none;
+}
+.pic image{
+  width: 100%;
+}

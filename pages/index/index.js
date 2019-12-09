@@ -2,8 +2,12 @@
 //获取应用实例
 var app = getApp();
 var util = require("../../utils/util.js");
+var postData = require("../../data/course_data.js");
 Page({
   data: {
+    
+    postList: postData.postList,
+  
     banner:{
       delay:3000,
       timeoutProcess:null,
@@ -13,10 +17,6 @@ Page({
     nav:[],
     ad:[],
     course_grp:[],
-    /*moreCourses:{
-      title:"已经到底，查看更多课程 >",
-      url:"../course/course"
-      },*/
     userInfo: {}
   },
   /*点击banner上的圆选择相应的图片 */

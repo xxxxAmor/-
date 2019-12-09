@@ -71,3 +71,10 @@
     <navigator url="{{moreCourses.url}}">{{moreCourses.title}}</navigator>
   </view>
 </view>
+
+<view wx:for="{{postList}}" wx:for-item="item" wx:for-index="index">
+  <navigator url="./../other/other?id={{index}}">
+    <text>{{item.question}}</text>
+  </navigator>
+</view>
+<text>共{{postList.length}}题</text>

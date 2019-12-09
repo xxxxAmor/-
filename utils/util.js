@@ -1,7 +1,9 @@
 
 var index_data = require('../data/index_data.js');
 var course_data = require("../data/course_data.js");
+console.log(course_data)
 
+console.log(index_data)
 /*index.wxml*/
 /*获取bannerArr*/
 function getBanner(){
@@ -32,8 +34,5 @@ module.exports.getNav = getNav;
 module.exports.getAd = getAd;
 module.exports.getCourse = getCourse;
 module.exports.getCourses = getCourses;
-
-
-
 
 

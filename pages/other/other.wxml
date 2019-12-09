@@ -1,2 +1,18 @@
 <!--pages/other/other.wxml-->
-<text>pages/other/other.wxml</text>
+<!--<image class="pic" src="../pictures/orange.png" mode="'widthFix'">
+</image>
+<image class="pic" src="../pictures/apple.png" mode="'widthFix'">
+</image>
+
+<text>现在你有一个橘子，老师又给了你三个苹果，请数一数一共有多少水果</text>
+<view>
+  <button bindtap='bindpage'>下一页</button>
+</view>-->
+
+<view>
+  <view>{{details[id].question}}</view>
+  <view>{{details[id].option}}</view>
+</view>
+<button bindtap="lastQuestion">◀</button>
+<button bindtap="nextQuestion">▶</button>
+
