@@ -3,31 +3,31 @@ var bannerSrc = {
   banner: [
     {
       imgurl:"http://202.112.194.245/space/201811690524/02.png" ,
-      navigator: "../other/other",
+      
     },
     {
       imgurl: "http://202.112.194.245/space/201811690524/02.png",
-      navigator: "../other/other",
+      
     },
     {
       imgurl: "http://202.112.194.245/space/201811690524/02.png",
-      navigator: "../other/other",
+      
     },
     {
       imgurl: "http://202.112.194.245/space/201811690524/02.png",
-      navigator: "../other/other",
+      
     },
     {
       imgurl: "http://202.112.194.245/space/201811690524/02.png",
-      navigator: "../other/other",
+      
     },
     {
       imgurl: "http://202.112.194.245/space/201811690524/02.png",
-      navigator: "../other/other",
+      
     },
     {
       imgurl: "http://202.112.194.245/space/201811690524/02.png",
-      navigator: "../other/other",
+      
     }
   ]
 }
@@ -40,7 +40,7 @@ var navSrc = {
     },
     {
       imgurl: "http://edu-image.nosdn.127.net/24c80eb7-148d-4520-92b3-19de174561d2.jpg",
-      navigator: "../other/other",
+      navigator: "../other1/other",
       title: "趣味课堂"
     },
     {

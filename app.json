@@ -4,8 +4,9 @@
     "pages/course/course",
     "pages/mystudy/mystudy",
     "pages/accounts/accounts",
-    "pages/other/other",
-    "pages/logs/logs"
+    "pages/other1/other",
+    "pages/logs/logs",
+    "pages/succes/succes"
   ],
   "window": {
     "backgroundColor": "#31a030",

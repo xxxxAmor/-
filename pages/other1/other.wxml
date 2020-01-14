@@ -1,0 +1,20 @@
+<!--pages/other/other.wxml-->
+<text>春晓</text>
+<text>孟浩然 (唐)</text>
+<text>春眠不觉晓，处处闻啼鸟。</text>
+<text>夜来风雨声，花落知多少。</text>
+<image class="pic" src="../pictures/3179257_223544860000_2.jpg" mode="'widthFix'">
+</image>
+
+<view>
+<button>下一页</button>
+</view>
+
+<!--<view>
+  <view>{{details[id].question}}</view>
+  <view>{{details[id].option}}</view>
+</view>
+-->
+<button bindtap="lastQuestion">◀</button>
+<button bindtap="nextQuestion">▶</button>
+

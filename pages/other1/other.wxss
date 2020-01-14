@@ -1,0 +1,12 @@
+/* pages/other/other.wxss */
+.pic{
+  width: 100%;
+  background: none;
+}
+.pic image{
+  width: 100%;
+}
+text{display: flex;
+align-items: center;
+justify-content: center;
+}

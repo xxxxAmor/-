@@ -92,4 +92,9 @@ Page({
         }
         that.changeBanner(currindex);
   }
+
+
+
+
 })
+

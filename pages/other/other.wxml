@@ -1,18 +1,18 @@
-<!--pages/other/other.wxml-->
-<!--<image class="pic" src="../pictures/orange.png" mode="'widthFix'">
-</image>
-<image class="pic" src="../pictures/apple.png" mode="'widthFix'">
-</image>
+<view class="image-parent">
+  <image class='image' mode='widthFix' src='../pictures/bg1.jpg'></image>
+  <image class='pic1' mode='widthFix' src='../pictures/西瓜.png'></image>
+  <image class='pic2' mode='widthFix' src='../pictures/西瓜.png'></image>
+  <image class='pic3' mode='widthFix' src='../pictures/西瓜.png'></image>
+  <image class='pic4' mode='widthFix' src='../pictures/西瓜.png'></image>
+  <image class='pic5' mode='widthFix' src='../pictures/西瓜.png'></image>
+  <view class="text1">小朋友,数一数下面有几块西瓜？</view>
+  <button class='button1'  hover-class="hover">1</button>
+  <button class='button2'  hover-class="hover">2</button>
+  <button class='button3'  hover-class="hover">3</button>
+  <button class='button4'  hover-class="hover">4</button>
+  <view bindtap='answer'>
+   <button class='button5' bintap="answer" hover-class="hover">5</button>
+   </view>
+  <button class='button6'  hover-class="hover">6</button>
 
-<text>现在你有一个橘子，老师又给了你三个苹果，请数一数一共有多少水果</text>
-<view>
-  <button bindtap='bindpage'>下一页</button>
-</view>-->
-
-<view>
-  <view>{{details[id].question}}</view>
-  <view>{{details[id].option}}</view>
-</view>
-<button bindtap="lastQuestion">◀</button>
-<button bindtap="nextQuestion">▶</button>
-
+</view> 

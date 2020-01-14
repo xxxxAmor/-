@@ -1,6 +1,6 @@
-<!--index.wxml-->
+<!-- index.wxml-->
 <view class="pageContainer  bgC">
-  <!--search-->
+  <!--search
   <view class="search flex">
     <view class="search-left">
       <image src="../../images/search.png"></image>
@@ -40,7 +40,7 @@
       </navigator>
     </block>
   </view>
-  <!--ad-->
+ <!--ad-->
   <view class="ad flex">
     <block wx:for="{{ad}}" wx:for-item="item">
       <navigator url="{{item.navigator}}">
@@ -66,7 +66,7 @@
       </view>
     </block>
   </view>
-  <!--全部课程-->
+  <!-- 全部课程-->
   <view class="navigator-course">
     <navigator url="{{moreCourses.url}}">{{moreCourses.title}}</navigator>
   </view>
@@ -77,4 +77,6 @@
     <text>{{item.question}}</text>
   </navigator>
 </view>
-<text>共{{postList.length}}题</text>
+<text>共{{postList.length}}题</text> 
+ 
+
